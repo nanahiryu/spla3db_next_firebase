@@ -1,0 +1,37 @@
+openapi: "3.0.2"
+info:
+  title: spla3 db
+  version: "1.0"
+servers:
+  - url: https://api.server.test/v1
+paths:
+  # ブキ一覧
+  /weapon_list:
+    get:
+      responses:
+        "200":
+          description: OK
+  # main一覧
+  /main_list:
+    get:
+      responses:
+        "200":
+          description: OK
+  # sub一覧
+  /sub_list:
+    get:
+      responses:
+        "200":
+          description: OK
+  # special一覧
+  /special_list:
+    get:
+      responses:
+        "200":
+          description: OK
+  # weapon詳細
+  /weapon_detail:
+    get:
+      responses:
+        "200":
+          description: OK
